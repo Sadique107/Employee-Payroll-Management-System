@@ -14,17 +14,13 @@ This payroll management software is developed using Java and Microsoft SQL Serve
 - Administrators can add new users to the system.
 
 **Requirements:**
-- Eclipse IDE (2023-12+) with:
-- Java Development Tools (JDT)
-- Database Development perspective (recommended)
+- - Netbeans IDE (7.4+).
 - Microsoft SQL Server (2014+)
-- Microsoft JDBC Driver 12.2+ for SQL Server
-  Setup Instructions:
+- JDBC/ODBC Driver for Microsoft SQL Server.
 
-Database Initialization
-
-1. Execute schema.sql from SQL Server Management Studio
-2. Verify database creation: SalaryManagement.
+Setup:
+1. Execute the 'schema.sql' file in the SQL folder.
+2. Open the folder as a NetBeans project.
 3. Configure your ODBC data source:
    - Open the ODBC Data Source Administrator.
    - Add a new data source.
